@@ -3,7 +3,6 @@ function auto_grow(element) {
     element.style.height = (element.scrollHeight) + "px";
 }
 
-function Run() { 
-	//function to make the text bold using DOM method 
+function Run() {
 	document.getElementById("textarea1").style.fontWeight = "bold"; 
 }
