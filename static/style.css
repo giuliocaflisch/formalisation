@@ -76,12 +76,12 @@ textarea {
     line-height: 18px;
 
     border-radius: 0px;
+    border-width:  0px;
     border-color: transparent;
 }
 
 textarea:focus {
     outline: none !important;
-    border-radius: 0px;
     border-color: green;
     box-shadow: 0 0 10px green;
 }
