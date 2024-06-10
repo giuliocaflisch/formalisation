@@ -59,6 +59,10 @@ hr {
 }
 
 textarea {
+    resize: none;
+    overflow: hidden;
+    max-width: 100%;
+
     background-color: rgb(30, 30, 30);
 
     color: rgb(212, 212, 212);
@@ -71,9 +75,15 @@ textarea {
     
     line-height: 18px;
 
+    border-radius: 0px;
     border-color: transparent;
+}
 
-    max-width: 100%;
+textarea:focus {
+    outline: none !important;
+    border-radius: 0px;
+    border-color: green;
+    box-shadow: 0 0 10px green;
 }
 
 .depth {
