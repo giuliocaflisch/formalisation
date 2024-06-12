@@ -36,10 +36,18 @@ body {
     font-family: "Monocode";
     font-size: 15px;
 
-    margin-top:    0px;
-    margin-bottom: 0px;
+    margin-top:    12px;
+    margin-bottom: 12px;
     margin-left:   0px;
     margin-right:  0px;
+}
+
+hr {
+    margin-top:    0px;
+    margin-bottom: 0px;
+
+    padding-top:    0px;
+    padding-bottom: 0px;
 }
 
 pre {
@@ -82,8 +90,7 @@ textarea {
 
 textarea:focus {
     outline: none !important;
-    border-color: green;
-    box-shadow: 0 0 10px green;
+    box-shadow: 0 0 10px;
 }
 
 .depth {
