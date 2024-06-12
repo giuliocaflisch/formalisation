@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
 
-<head>
-	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+        <link href="static/structures/bootstrap/bootstrap.min.css" rel="stylesheet">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script defer src="static/assets/icons/fontawesome/brands.min.js"></script>
+        <script defer src="static/assets/icons/fontawesome/solid.min.js"></script>
+        <script defer src="static/assets/icons/fontawesome/regular.min.js"></script>
+        <script defer src="static/assets/icons/fontawesome/fontawesome.min.js"></script>
         
-    <link href="static/structures/bootstrap/bootstrap.min.css" rel="stylesheet">
+        <script src="static/assets/formulas/mathjax/tex-svg.js" id="MathJax-script" async></script>
+        <script>
+            MathJax = { tex: { inlineMath: [['$', '$']] }, svg: { fontCache: 'global' } };
+        </script>
 
-    <script defer src="static/assets/icons/fontawesome/brands.min.js"></script>
-    <script defer src="static/assets/icons/fontawesome/solid.min.js"></script>
-    <script defer src="static/assets/icons/fontawesome/regular.min.js"></script>
-    <script defer src="static/assets/icons/fontawesome/fontawesome.min.js"></script>
+        <link href="static/style.css" rel="stylesheet">
+    </head>
 
-	
-    <script src="static/assets/formulas/mathjax/tex-svg.js" id="MathJax-script" async></script>
-    <script>
-        MathJax = { tex: { inlineMath: [['$', '$']] }, svg: { fontCache: 'global' } };
-    </script>
-
-    <link href="static/style.css" rel="stylesheet">
-</head>
-
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
 <hr>
 <pre>
 .
 ,
 
-()
+() 
 </pre>
 <pre>
 :
@@ -75,63 +73,32 @@
 
 ⊔( ), ⊓( )
 </pre>
+                </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-	<div class="row">
-            <div class="col">
+            <div class="row">
+                <div class="col">
 <hr>
+<textarea oninput="auto_grow(this)" rows="1" cols="200"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+<textarea oninput="auto_grow(this)" rows="1" cols="200"></textarea>
+                </div>
+                <div class="col-6">
+<textarea oninput="auto_grow(this)" rows="1" cols="200"></textarea>
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="col"> 
+<button type="button" onclick="Run()" class="shadow-sm btn btn-outline-secondary" data-toggle="tooltip" data-placement="top" title="Run">
+Run
+</button>
+                </div> 
             </div>
         </div>
-        <div class="row">
-            <div class="col-6">
-<pre>
-Meravigliose verità,
-Assunte o dimostrate,
-Tormentano l'antichità
-E le presenti giornate
 
-Magari impegnative,
-Astratte quanto lascive,
-Trattate come dive
-In seguito a Euclide
-
-Consistenza formale
-Assieme all'intuizione
-Ancor nell'arsenale
-Ma non nell'istruzione
-
-In lotta contro il falso,
-O verità assolute,
-Abbiam da fare un balzo
-Via da cose ravvedute
-
-Vorrei scienza comune,
-Isolata da lacune
-Scaturite da sfortune
-O convenzioni importune.
-</pre>
-            </div>
-            <div class="col-6">
-<textarea oninput="auto_grow(this)" id="textarea0" rows="1" cols="200"></textarea>
-            </div>
-        </div>
-    </div>
-
-	<div class="container-fluid">
-        <div class="row"> 
-            <div class="col"> 
-                <button type="button" onclick="Run()" class="shadow-sm btn btn-outline-secondary" data-toggle="tooltip" data-placement="top" title="Run">
-                    Run
-                </button> 
-            </div> 
-        </div>
-	</div>
-
-    <script src="static/structures/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="static/interactive.js"></script>
-</body> 
-
+        <script src="static/structures/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="static/interactive.js"></script>
+    </body> 
 </html>
